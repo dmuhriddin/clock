@@ -1,0 +1,28 @@
+body {
+  min-height: 100vh;
+  background: url("./assets/clock.webp") no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.clock__container {
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 15rem;
+}
+
+.clock__container h3 {
+  font-size: 4rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.clock__container span {
+  color: #fff;
+  font-size: 3rem;
+  margin: 0px 0.5rem;
+}
